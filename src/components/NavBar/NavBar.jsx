@@ -6,22 +6,22 @@ const navbarlinks = [
   {
     id: 1,
     title: "Home",
-    link: "/"
+    link: "#hero"
   },
   {
     id: 1,
     title: "Beneficios",
-    link: "/"
+    link: "#beneficios"
   },
   {
     id: 1,
     title: "Nosotros",
-    link: "/"
+    link: "#nosotros"
   },
   {
     id: 1,
     title: "Contactanos",
-    link: "/"
+    link: "#contactanos"
   }
 ]
 

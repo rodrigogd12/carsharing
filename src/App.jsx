@@ -15,12 +15,23 @@ function App() {
     >
       <NavBar />
       <Hero />
-      <Beneficios />
-      <BoliviaCarSharing />
-      <Preguntas />
-      <About/>
-      <Contacto />
+      <div id="beneficios">
+        <Beneficios />
+      </div>
+      <div id="nosotros">
+        <BoliviaCarSharing />
+      </div>
+      <div id="faq">
+        <Preguntas />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="contactanos">
+        <Contacto />
+      </div>
     </div>
+
   )
 }
 
