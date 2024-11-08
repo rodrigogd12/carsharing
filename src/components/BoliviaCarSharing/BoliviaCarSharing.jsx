@@ -1,4 +1,5 @@
 import { FaGooglePlay, FaApple } from 'react-icons/fa';
+import phono from '../../assets/telefono.png'
 
 const BoliviaCarSharing = () => {
   return (
@@ -8,7 +9,7 @@ const BoliviaCarSharing = () => {
         {/* Imagen del teléfono */}
         <div className="flex justify-center md:justify-start md:w-1/2 mb-6 md:mb-0">
           <img
-            src="path/to/phone-image.png"
+            src={phono}
             alt="Mapa en el teléfono"
             className="w-64 rounded-lg"
           />
@@ -17,27 +18,29 @@ const BoliviaCarSharing = () => {
         {/* Texto de los beneficios */}
         <div className="md:w-1/2 ml-0 md:ml-6">
           <h2 className="text-2xl font-bold mb-4">
-            ¿Por qué elegir Bolivia Car Sharing?
+            Why choose Bolivia Car Sharing?
           </h2>
 
           <div className="mb-4">
-            <h3 className="text-lg font-semibold">Tu seguridad es nuestra prioridad</h3>
+            <h3 className="text-lg font-semibold">Your safety is our priority</h3>
             <p className="text-gray-700">
-              Con viajes geolocalizados, conductores identificados para cuidarte durante el viaje.
+              With geolocated trips, identified drivers to take care of you during the trip.
             </p>
           </div>
 
           <div className="mb-4">
-            <h3 className="text-lg font-semibold">El estándar de calidad más alto</h3>
+            <h3 className="text-lg font-semibold">The highest quality standard</h3>
             <p className="text-gray-700">
-              Conductores profesionales, vehículos modernos y posibilidad de elegir tus preferencias de viaje de la forma más fácil. Por fin viajarás como te mereces.
+              Professional drivers, modern vehicles and the ability to choose your travel preferences in the easiest way. You will finally travel as you deserve.
             </p>
           </div>
 
           <div className="mb-4">
-            <h3 className="text-lg font-semibold">Claridad y transparencia en los precios</h3>
+            <h3 className="text-lg font-semibold">
+              Clarity and transparency in prices
+            </h3>
             <p className="text-gray-700">
-              Siempre te mostramos el precio antes de aceptar el viaje para que tú decidas cómo moverte por la ciudad. Sin sorpresas.
+              We always show you the price before accepting the trip so that you can decide how to get around the city. No surprises.
             </p>
           </div>
 

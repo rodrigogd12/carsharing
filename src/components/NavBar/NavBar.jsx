@@ -57,7 +57,8 @@ export const NavBar = () => {
             className='inline-block transition-transform duration-300 transform hover:scale-125 w-[80px]'
             src={logo} alt='Logo de la pagina Bolivia Car Sharing' />
         </div>
-{/* Boton de hamburguesa */}
+
+{/* -----------------------BOTÓN HAMBURGUESA------------------------- */}
         <button
         onClick={toggleMenu}
         className='md:hidden'
@@ -83,7 +84,7 @@ export const NavBar = () => {
           </svg>
         </button>
 
-{/* Menu de navegacion */}
+{/* ---------------------MENU DE NAVEGACIÓN-------------------------- */}
         <div className='hidden md:block'>
           <ul className='flex sm:space-x-8 space-x-4'>
             {navbarlinks.map((link) => (
@@ -96,7 +97,8 @@ export const NavBar = () => {
             ))}
           </ul>
         </div>
-{/* menu redes */}
+
+{/* ------------------MENU REDES------------------------- */}
         <div
         className='hidden md:block'
         >
@@ -104,20 +106,22 @@ export const NavBar = () => {
             {navbarRedes.map((redes) => (
               <li key={redes.id}>
                 <a
+                  href={redes.link}
                   target='_blank'
                   rel='noopener noreferrer'
                   className='inline-block transition-transform duration-300 transform hover:scale-125'>
                   <img
-                    src={redes.icon} alt={redes.title} href={redes.link} className='w-[30px] h-[30px]' />
+                    src={redes.icon}
+                    alt={redes.title}
+                    className='w-[30px] h-[30px]' />
                 </a>
               </li>
             ))}
           </ul>
         </div>
-
       </div>
 
-{/* menu movil */}
+{/* --------------------------MENU MOVIL-------------------------- */}
       <div
         className={`md:hidden absolute w-full bg-slate-300 transition-all duration-300 ${isOpen ? "opacity-100 visible": "opacity-0 invisible"}`}
       >

@@ -1,27 +1,32 @@
-import imgsection1 from '../../assets/section1.png'
-import titulo from '../../assets/titulo1.png'
+import imgf from '../../assets/fondo1.jpeg'
+import banner from '../../assets/banner.png'
 
 export const Hero = () => {
   return (
-    <section className="mt-31">
-
-      <div className='grid grid-cols-1 md:grid-cols-2'>
+    <section >
+      <div className="w-full h-64 overflow-hidden">
+        <img src={banner} alt="banner" className="w-full h-full object-cover" />
+      </div>
+      <div className='grid grid-cols-1 md:grid-cols-2 mt-10'>
 {/* texto */}
-        <div>
-          <img src={titulo} />
-          <p>
-            El car sharing o uso compartido
-            de vehículos, es un modelo de
-            transporte que permite a los
-            usuarios acceder a vehículos
-            eléctrico sin necesidad de
-            poseer uno.
-          </p>
+        <div className='mt-12'>
+          <div className='ml-8'>
+            <h1 className='text-4xl font-bold text-gray-800'>
+              IN BOLIVIA CAR SHARING WE SEEK TO PROVIDE NEW MODES OF TRANSPORTATION
+            </h1>
+          </div>
+          <div className='mt-8 ml-8 mr-9'>
+
+            <h1 className='text-2xl text-gray-800'>
+              Car sharing or vehicle sharing is a transportation model that allows users to access electric vehicles without having to own one.
+            </h1>
+          </div>
+         
         </div>
 
 {/* imagen */}
         <div>
-          <img src={imgsection1} alt='imagen de inicio'/>
+          <img src={imgf} alt='imagen de inicio'/>
         </div>
       </div>
     </section>
