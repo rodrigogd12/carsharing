@@ -2,9 +2,10 @@ import About from "./components/About/About"
 import Beneficios from "./components/Beneficios/Beneficios"
 import BoliviaCarSharing from "./components/BoliviaCarSharing/BoliviaCarSharing"
 import Contacto from "./components/Contacto/Contacto"
-import Preguntas from "./components/FAQ/Preguntas"
+
 import { Hero } from "./components/Hero/Hero"
 import { NavBar } from "./components/NavBar/NavBar"
+import Preguntas from "./components/Preguntas/Preguntas"
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
         <BoliviaCarSharing />
       </div>
       <div id="faq">
-        <Preguntas />
+      <Preguntas/>
       </div>
       <div id="about">
         <About />
