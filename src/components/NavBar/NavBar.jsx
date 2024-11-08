@@ -32,20 +32,6 @@ const navbarlinks = [
   }
 ]
 
-const navbarRedes = [
-  {
-    id: 1,
-    title: "facebook",
-    link: "https://www.facebook.com",
-    image: facebookIcon
-  },
-  {
-    id: 2,
-    title: "linkedin",
-    link: "https://www.linkedin.com/company/bolivia-car-sharing/",
-    image: LinkedIcon
-  },
-]
 
 export const NavBar = () => {
 
@@ -110,20 +96,31 @@ export const NavBar = () => {
         className='hidden md:block'
         >
           <ul className='flex sm:space-x-8 space-x-4'>
-            {navbarRedes.map((redes) => (
-              <li key={redes.id}>
+              <li >
                 <a
-                  href={redes.link}
+                href="https://www.facebook.com"
                   target='_blank'
                   rel='noopener noreferrer'
                   className='inline-block transition-transform duration-300 transform hover:scale-125'>
                   <img
-                    src={redes.image}
-                    alt={redes.title}
+                    src={facebookIcon}
+                    alt="facebook"
                     className='w-[30px] h-[30px]' />
                 </a>
               </li>
-            ))}
+            
+            <li >
+              <a
+                href="https://www.linkedin.com/company/bolivia-car-sharing/"
+                target='_blank'
+                rel='noopener noreferrer'
+                className='inline-block transition-transform duration-300 transform hover:scale-125'>
+                <img
+                  src={LinkedIcon}
+                  alt="linkedin"
+                  className='w-[30px] h-[30px]' />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
