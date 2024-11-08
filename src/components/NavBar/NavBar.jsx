@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../../../public/logo.png'
+import logo from '../../assets/logo.png'
 
 
 const navbarlinks = [
@@ -9,17 +9,17 @@ const navbarlinks = [
     link: "#hero"
   },
   {
-    id: 1,
+    id: 2,
     title: "Beneficios",
     link: "#beneficios"
   },
   {
-    id: 1,
+    id: 3,
     title: "Nosotros",
     link: "#nosotros"
   },
   {
-    id: 1,
+    id: 4,
     title: "Contactanos",
     link: "#contactanos"
   }
@@ -30,13 +30,13 @@ const navbarRedes = [
     id: 1,
     title: "facebook",
     link: "https://www.facebook.com",
-    icon: "/public/facebook.ico"
+    icon: "/facebook.ico"
   },
   {
-    id: 1,
+    id: 2,
     title: "linkedin",
     link: "https://www.linkedin.com/company/bolivia-car-sharing/",
-    icon: "/public/linkedin.ico"
+    icon: "/linkedin.ico"
   },
 ]
 
