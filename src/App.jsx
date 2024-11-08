@@ -2,7 +2,7 @@ import About from "./components/About/About"
 import Beneficios from "./components/Beneficios/Beneficios"
 import BoliviaCarSharing from "./components/BoliviaCarSharing/BoliviaCarSharing"
 import Contacto from "./components/Contacto/Contacto"
-import Preguntas from "./components/FAQ/Preguntas"
+import Preguntas from "./components/Faq/Preguntas"
 import { Hero } from "./components/Hero/Hero"
 import { NavBar } from "./components/NavBar/NavBar"
 
