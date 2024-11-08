@@ -108,8 +108,7 @@ export const NavBar = () => {
                     className='w-[30px] h-[30px]' />
                 </a>
               </li>
-            
-            <li >
+              <li >
               <a
                 href="https://www.linkedin.com/company/bolivia-car-sharing/"
                 target='_blank'
@@ -144,21 +143,30 @@ export const NavBar = () => {
         </ul>
 
         <ul className={`flex space-x-4 px-4 py-2 border-t border-slate-900 justify-center`}>
-          {navbarRedes.map((redes) => (
-            <li key={redes.id}>
-              <a
-                className=''
-                href={redes.link}
-                onClick={() => setIsOpen(false)}
-                target='_blank'
-                rel='noopener noreferrer'
-                >
-                <img
-                  className='w-[30px] h-[30px]'
-                  src={redes.icon} alt={redes.title} />
-              </a>
-            </li>
-          ))}
+          <li >
+            <a
+              href="https://www.facebook.com"
+              target='_blank'
+              rel='noopener noreferrer'
+              className='inline-block transition-transform duration-300 transform hover:scale-125'>
+              <img
+                src={facebookIcon}
+                alt="facebook"
+                className='w-[30px] h-[30px]' />
+            </a>
+          </li>
+          <li >
+            <a
+              href="https://www.linkedin.com/company/bolivia-car-sharing/"
+              target='_blank'
+              rel='noopener noreferrer'
+              className='inline-block transition-transform duration-300 transform hover:scale-125'>
+              <img
+                src={LinkedIcon}
+                alt="linkedin"
+                className='w-[30px] h-[30px]' />
+            </a>
+          </li>
         </ul>
       </div>
 
