@@ -1,26 +1,33 @@
 import { useState } from 'react'
 import logo from '../../assets/logo.png'
+import facebookIcon from "../../assets/facebook.ico"
+import LinkedIcon from '../../assets/linkedin.ico'
 
 
 const navbarlinks = [
   {
     id: 1,
-    title: "Home",
+    title: "HOME",
     link: "#hero"
   },
   {
     id: 2,
-    title: "Beneficios",
+    title: "BENEFITS",
     link: "#beneficios"
   },
   {
     id: 3,
-    title: "Nosotros",
-    link: "#nosotros"
+    title: "FAQ",
+    link: "#faq"
   },
   {
     id: 4,
-    title: "Contactanos",
+    title: "ABOUT US",
+    link: "#nosotros"
+  },
+  {
+    id: 5,
+    title: "CONTACT US",
     link: "#contactanos"
   }
 ]
@@ -30,13 +37,13 @@ const navbarRedes = [
     id: 1,
     title: "facebook",
     link: "https://www.facebook.com",
-    icon: "/facebook.ico"
+    image: facebookIcon
   },
   {
     id: 2,
     title: "linkedin",
     link: "https://www.linkedin.com/company/bolivia-car-sharing/",
-    icon: "/linkedin.ico"
+    image: LinkedIcon
   },
 ]
 
@@ -111,7 +118,7 @@ export const NavBar = () => {
                   rel='noopener noreferrer'
                   className='inline-block transition-transform duration-300 transform hover:scale-125'>
                   <img
-                    src={redes.icon}
+                    src={redes.image}
                     alt={redes.title}
                     className='w-[30px] h-[30px]' />
                 </a>
