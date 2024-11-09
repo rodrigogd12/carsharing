@@ -2,8 +2,9 @@ import About from "./components/About/About"
 import Beneficios from "./components/Beneficios/Beneficios"
 import BoliviaCarSharing from "./components/BoliviaCarSharing/BoliviaCarSharing"
 import Contacto from "./components/Contacto/Contacto"
+import Footer from "./components/Footer/Footer"
 
-import { Hero } from "./components/Hero/Hero"
+import { Home } from "./components/Hero/Home"
 import { NavBar } from "./components/NavBar/NavBar"
 import Preguntas from "./components/Preguntas/Preguntas"
 
@@ -15,7 +16,7 @@ function App() {
     className="overflow-auto min-h-screen"
     >
       <NavBar />
-      <Hero />
+      <Home />
       <div id="beneficios">
         <Beneficios />
       </div>
@@ -31,6 +32,7 @@ function App() {
       <div id="contactanos">
         <Contacto />
       </div>
+      <Footer/>
     </div>
 
   )

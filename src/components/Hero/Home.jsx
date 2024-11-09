@@ -1,7 +1,7 @@
 import imgf from '../../assets/fondo1.jpeg'
 import banner from '../../assets/banner.png'
 
-export const Hero = () => {
+export const Home  = () => {
   return (
     <section >
       <div className="w-full h-64 overflow-hidden">
