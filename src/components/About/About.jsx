@@ -2,7 +2,7 @@ import viru from '../../assets/viru viru.png'
 
 const About = () => {
   return (
-    <section className="flex justify-center items-center bg-gray-200 px-8 py-16">
+    <section className="flex justify-center items-center bg-gray-200 px-8 ">
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-6xl w-full flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-8">
         {/* Texto de información */}
         <div className="flex-1">

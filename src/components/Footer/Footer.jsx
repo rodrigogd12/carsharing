@@ -23,17 +23,11 @@ const Footer = () => {
             <div className="mb-6 md:mb-0 md:w-1/3 flex flex-col items-center md:items-start">
               <h3 className="text-lg font-semibold mb-2">Síguenos</h3>
               <div className="flex space-x-4">
-                <a href="#" className="text-white text-2xl hover:text-blue-500">
+                <a href="https://www.facebook.com" className="text-white text-2xl hover:text-blue-500">
                   <FaFacebook />
                 </a>
-                <a href="#" className="text-white text-2xl hover:text-blue-700">
+                <a href="https://www.linkedin.com/company/bolivia-car-sharing/" className="text-white text-2xl hover:text-blue-700">
                   <FaLinkedin />
-                </a>
-                <a href="#" className="text-white text-2xl hover:text-gray-500">
-                  <FaGithub />
-                </a>
-                <a href="#" className="text-white text-2xl hover:text-gray-500">
-                  <FaCommentDots />
                 </a>
               </div>
             </div>

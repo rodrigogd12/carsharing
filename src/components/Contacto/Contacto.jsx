@@ -5,7 +5,7 @@ const Contacto = () => {
     <section className="flex flex-col items-center bg-gray-100 py-12 px-6">
       {/* Formulario de Contacto */}
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg mb-10">
-        <h2 className="text-center text-2xl font-bold mb-6 text-gray-800">Contacto</h2>
+        <h2 className="text-center text-2xl font-bold mb-6 text-gray-800"> Contact Us</h2>
 
         <form className="space-y-5">
           {/* Campo de Email */}

@@ -20,7 +20,7 @@ function App() {
       <div id="beneficios">
         <Beneficios />
       </div>
-      <div id="nosotros">
+      <div id="porque">
         <BoliviaCarSharing />
       </div>
       <div id="faq">
