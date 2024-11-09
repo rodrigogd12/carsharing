@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import preguntas from '../../assets/preguntas.jpeg'
 
 const faqs = [
   {
@@ -39,34 +40,49 @@ const Preguntas = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-lg">
-      <h2 className="text-2xl font-bold text-center mb-6">Preguntas Frecuentes</h2>
-      <ul className="space-y-4">
-        {faqs.map((faq, index) => (
-          <li key={index} className="border-b pb-4">
-            <div className="flex justify-between items-center">
-              <button
-                onClick={() => toggleFAQ(index)}
-                className="text-left text-lg font-semibold focus:outline-none"
-              >
-                {faq.question}
-              </button>
-              <button
-                onClick={() => toggleFAQ(index)}
-                className="text-xl font-bold text-gray-500 focus:outline-none"
-              >
-                {openIndex === index ? 'X' : '+'}
-              </button>
+    <section className='flex justify-center  bg-gray-200 mt-8'>
+      <div className='bg-white pl-8 pr-8  rounded-lg shadow-lg max-w-6xl'>
+    <h2 className="text-2xl font-bold text-center mb-6 mt-10">Frequently Asked Questions</h2>
+        <div className="bg-white p-8 rounded-lg shadow-lg max-w-6xl flex flex-col md:flex-row">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Reducción de emisiones */}
+            <div className="flex items-start">
+              <ul className="space-y-4">
+                {faqs.map((faq, index) => (
+                  <li key={index} className="border-b pb-4">
+                    <div className="flex justify-between items-center">
+                      <button
+                        onClick={() => toggleFAQ(index)}
+                        className="text-left text-lg font-semibold focus:outline-none"
+                      >
+                        {faq.question}
+                      </button>
+                      <button
+                        onClick={() => toggleFAQ(index)}
+                        className="text-xl font-bold text-gray-500 focus:outline-none"
+                      >
+                        {openIndex === index ? 'X' : '+'}
+                      </button>
+                    </div>
+                    {openIndex === index && (
+                      <p className="mt-2 text-gray-600 bg-green-100 p-3 rounded-lg">
+                        {faq.answer}
+                      </p>
+                    )}
+                  </li>
+                ))}
+              </ul>
             </div>
-            {openIndex === index && (
-              <p className="mt-2 text-gray-600 bg-green-100 p-3 rounded-lg">
-                {faq.answer}
-              </p>
-            )}
-          </li>
-        ))}
-      </ul>
+            </div>
+
+          <div className="flex items-start pb-8 mt-8">
+          <img src={preguntas} />
+          </div>
+
+        </div>
     </div>
+    </section>
   );
 };
 

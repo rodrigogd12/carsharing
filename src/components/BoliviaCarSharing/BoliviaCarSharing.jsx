@@ -1,13 +1,13 @@
-import { FaGooglePlay, FaApple } from 'react-icons/fa';
 import phono from '../../assets/telefono.png'
+import boliviacar from '../../assets/boliviacar.png'
 
 const BoliviaCarSharing = () => {
   return (
-    <section className="flex justify-center items-center min-h-screen bg-gray-200 mt-31">
-      <div className="bg-white p-8 rounded-lg shadow-lg max-w-4xl flex flex-col md:flex-row">
+    <section className="flex justify-center  bg-gray-200 mt-8">
+      <div className="bg-white p-8 rounded-lg shadow-lg max-w-6xl flex flex-col md:flex-row">
 
         {/* Imagen del teléfono */}
-        <div className="flex justify-center md:justify-start md:w-1/2 mb-6 md:mb-0">
+        <div className="flex justify-center md:justify-center md:w-1/2 mb-6 md:mb-0">
           <img
             src={phono}
             alt="Mapa en el teléfono"
@@ -16,8 +16,9 @@ const BoliviaCarSharing = () => {
         </div>
 
         {/* Texto de los beneficios */}
-        <div className="md:w-1/2 ml-0 md:ml-6">
-          <h2 className="text-2xl font-bold mb-4">
+        <div className="flex h-screen md:w-1/2 ml-0 md:ml-6">
+          <div className=' mr-5'>
+          <h2 className="text-2xl font-bold mt-6 mb-6  ">
             Why choose Bolivia Car Sharing?
           </h2>
 
@@ -44,16 +45,9 @@ const BoliviaCarSharing = () => {
             </p>
           </div>
 
-          {/* Iconos de descarga */}
-          <div className="flex space-x-4 mt-6">
-            <a href="#" className="flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-lg">
-              <FaGooglePlay className="w-5 h-5" />
-              <span>Disponible en Google Play</span>
-            </a>
-            <a href="#" className="flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-lg">
-              <FaApple className="w-5 h-5" />
-              <span>Consíguelo en App Store</span>
-            </a>
+            <div className='mt-12 mb-4'>
+              <img src={boliviacar}/>
+          </div>
           </div>
         </div>
       </div>
