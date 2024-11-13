@@ -10,7 +10,7 @@ const Contacto = () => {
           <h2 className="text-center text-2xl font-bold mb-6 text-gray-800">Users Contact Us</h2>
 
           <form
-            action="https://formsubmit.co/33e460df086af89ef63431dbd6d5e4a9"
+            action="https://formsubmit.co/boliviacarsharing@gmail.com"
             method="POST"
             className="space-y-5"
           >
@@ -77,7 +77,7 @@ const Contacto = () => {
           <h2 className="text-center text-2xl font-bold mb-6 text-gray-800">Partners Contact Us</h2>
 
           <form
-            action="https://formsubmit.co/33e460df086af89ef63431dbd6d5e4a9"
+            action="https://formsubmit.co/boliviacarsharing@gmail.com"
             method="POST"
             className="space-y-5"
           >
