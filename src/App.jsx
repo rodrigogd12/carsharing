@@ -1,12 +1,12 @@
-import About from "./components/About/About"
+import { NavBar } from "./components/NavBar/NavBar"
+import { Home } from "./components/Hero/Home"
 import Beneficios from "./components/Beneficios/Beneficios"
 import BoliviaCarSharing from "./components/BoliviaCarSharing/BoliviaCarSharing"
+import Preguntas from "./components/Preguntas/Preguntas"
+import About from "./components/About/About"
 import Contacto from "./components/Contacto/Contacto"
 import Footer from "./components/Footer/Footer"
-
-import { Home } from "./components/Hero/Home"
-import { NavBar } from "./components/NavBar/NavBar"
-import Preguntas from "./components/Preguntas/Preguntas"
+import { ElectricCars } from "./components/ElectricCars/ElectricCars"
 
 function App() {
 
@@ -23,6 +23,7 @@ function App() {
       <div id="porque">
         <BoliviaCarSharing />
       </div>
+      <ElectricCars/>
       <div id="faq">
       <Preguntas/>
       </div>

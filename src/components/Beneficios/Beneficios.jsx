@@ -1,16 +1,16 @@
 import { FaLeaf, FaRoad, FaMoneyBillWave } from 'react-icons/fa';
-import banner from '../../assets/banner.png'
+import banner from '../../assets/banner.png';
 
 const Beneficios = () => {
   return (
     <section className="flex justify-center items-center bg-gray-200 mt-8">
-      <div className="bg-white pl-8 pr-8  rounded-lg shadow-lg max-w-6xl">
-        <img src={banner}/>
+      <div className="bg-white rounded-lg shadow-lg max-w-6xl">
+        <img className="w-full rounded-t-lg" src={banner} alt="Banner" />
         <h2 className="text-2xl font-bold text-center mb-6 mt-5">
           Benefits of Car Sharing
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pl-8 pr-8">
           {/* Reducción de emisiones */}
           <div className="flex items-start">
             <FaLeaf className="text-green-600 w-10 h-10 mr-4" />
@@ -49,8 +49,8 @@ const Beneficios = () => {
               </p>
             </div>
           </div>
-          </div>
         </div>
+      </div>
     </section>
   );
 };

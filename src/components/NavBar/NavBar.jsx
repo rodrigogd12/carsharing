@@ -7,9 +7,10 @@ const navbarlinks = [
   { id: 1, title: "HOME", link: "#hero" },
   { id: 2, title: "BENEFITS", link: "#beneficios" },
   { id: 3, title: "WHY CHOOSE US", link: "#porque" },
-  { id: 4, title: "FAQ", link: "#faq" },
-  { id: 5, title: "ABOUT US", link: "#about" },
-  { id: 6, title: "CONTACT US", link: "#contactanos" }
+  { id: 4, title: "OUR CARS", link: "#autos" },
+  { id: 5, title: "FAQ", link: "#faq" },
+  { id: 6, title: "ABOUT US", link: "#about" },
+  { id: 7, title: "CONTACT US", link: "#contactanos" }
 ]
 
 export const NavBar = () => {
