@@ -1,4 +1,5 @@
 import viru from '../../assets/viru viru.png'
+import santacruz from '../../assets/santacruz.png'
 
 const About = () => {
   return (
@@ -40,7 +41,7 @@ const About = () => {
         {/* Mapa */}
         <div className="flex-1">
           <img
-            src={viru} // Reemplaza este URL con la URL del mapa
+            src={santacruz} // Reemplaza este URL con la URL del mapa
             alt="Mapa de ubicación"
             className="w-full h-full rounded-lg object-cover"
           />
