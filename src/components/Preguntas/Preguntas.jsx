@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import preguntas from '../../assets/preguntas.jpeg';
+import carsharingtypes from '../../assets/carsharingtype.jpeg'
 
 const faqs = [
   {
@@ -84,7 +85,7 @@ const Preguntas = () => {
 
           {/* Imagen sin recorte */}
           <div className="w-full md:w-1/2 flex justify-center mt-8 md:mt-0">
-            <img src={preguntas} alt="Preguntas frecuentes" className="rounded-lg shadow-md w-full h-auto" />
+            <img src={carsharingtypes} alt="Preguntas frecuentes" className="rounded-lg shadow-md w-full h-auto" />
           </div>
         </div>
       </div>

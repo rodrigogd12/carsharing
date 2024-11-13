@@ -13,7 +13,7 @@ const Beneficios = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pl-8 pr-8">
           {/* Reducción de emisiones */}
           <div className="flex items-start">
-            <FaLeaf className="text-green-600 w-10 h-10 mr-4" />
+            <FaLeaf className="text-green-600 w-20 h-20 mr-4" />
             <div>
               <h3 className="text-lg font-bold">
                 Emissions reduction
@@ -26,7 +26,7 @@ const Beneficios = () => {
 
           {/* Descongestión vehicular */}
           <div className="flex items-start">
-            <FaRoad className="text-yellow-600 w-10 h-10 mr-4" />
+            <FaRoad className="text-yellow-600 w-20 h-20 mr-4" />
             <div>
               <h3 className="text-lg font-bold">
                 Vehicle decongestion
@@ -39,7 +39,7 @@ const Beneficios = () => {
 
           {/* Ahorro económico */}
           <div className="flex items-start pb-8">
-            <FaMoneyBillWave className="text-green-700 w-10 h-10 mr-4" />
+            <FaMoneyBillWave className="text-green-700 w-20 h-20 mr-4" />
             <div>
               <h3 className="text-lg font-bold">
                 Economic savings

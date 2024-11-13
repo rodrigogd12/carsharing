@@ -1,5 +1,6 @@
 import phono from '../../assets/telefono.png'
 import boliviacar from '../../assets/boliviacar.png'
+import typecars from '../../assets/typeCars.jpeg'
 
 const BoliviaCarSharing = () => {
   return (
@@ -9,9 +10,9 @@ const BoliviaCarSharing = () => {
         {/* Imagen del teléfono */}
         <div className="flex justify-center md:justify-center md:w-1/2 mb-6 md:mb-0">
           <img
-            src={phono}
+            src={typecars}
             alt="Mapa en el teléfono"
-            className="w-64 rounded-lg"
+            className=" rounded-lg"
           />
         </div>
 

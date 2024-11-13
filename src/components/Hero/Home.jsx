@@ -5,8 +5,9 @@ export const Home  = () => {
   return (
     <>
       <div className="w-full h-auto overflow-hidden m-0 p-0">
-        <img src={bannersito} alt="banner" className="w-full h-full object-cover" />
+        <img src={bannersito} alt="banner" className="w-full h-48 sm:h-64 md:h-80 lg:h-96 object-cover" />
       </div>
+
       <section className='flex justify-center items-center  bg-gray-200 m-8 ' >
         <div className="bg-white p-8 rounded-lg shadow-lg max-w-6xl">
           <div className='grid grid-cols-1 md:grid-cols-2 mt-10 '>
