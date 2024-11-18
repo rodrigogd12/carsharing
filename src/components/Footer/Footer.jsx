@@ -1,4 +1,4 @@
-import { FaFacebook, FaLinkedin, FaGithub, FaCommentDots } from 'react-icons/fa';
+import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   const copyright = String.fromCodePoint(0x00A9);
@@ -7,42 +7,62 @@ const Footer = () => {
 
   return (
     <section className="bg-gray-100">
-      <footer className="bg-gray-800 text-white w-full py-8 border-t border-gray-700">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center md:space-x-8">
-            {/* Información de Contacto */}
-            <div className="mb-6 md:mb-0 md:w-1/3">
-              <h3 className="text-lg font-semibold mb-2">Bolivia Car Sharing</h3>
-              <p className="text-sm">Contáctanos:</p>
-              <p className="text-sm mt-1">+591 77XXXXXX</p>
-              <p className="text-sm">boliviacarsharing@gmail.com</p>
-              <p className="text-sm mt-2">Ubicación: Bolivia</p>
+      <footer className="bg-gray-800 text-white w-full py-10 border-t border-gray-700">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left space-y-8 md:space-y-0 md:space-x-8">
+            {/* Contact Information */}
+            <div className="md:w-1/3">
+              <h3 className="text-xl font-bold mb-4">Bolivia Car Sharing</h3>
+              <p className="text-sm mb-2">Contact us:</p>
+              <p className="text-sm mb-1">Phone: +591 73265665</p>
+              <p className="text-sm mb-1">
+                Email: <a href="mailto:boliviacarsharing@gmail.com" className="text-blue-400 hover:underline">boliviacarsharing@gmail.com</a>
+              </p>
+              <p className="text-sm mb-1">
+                <a href="https://www.facebook.com/profile.php?id=61564049348784" className="text-blue-400 hover:underline">Facebook Link</a>
+              </p>
+              <p className="text-sm mb-1">
+                <a href="https://www.linkedin.com/company/bolivia-car-sharing/" className="text-blue-400 hover:underline">LinkedIn Link</a>
+              </p>
+              <p className="text-sm mt-3">Location: Bolivia</p>
             </div>
 
-            {/* Redes Sociales */}
-            <div className="mb-6 md:mb-0 md:w-1/3 flex flex-col items-center md:items-start">
-              <h3 className="text-lg font-semibold mb-2">Síguenos</h3>
-              <div className="flex space-x-4">
-                <a href="https://www.facebook.com" className="text-white text-2xl hover:text-blue-500">
+            {/* Social Media */}
+            <div className="md:w-1/3 flex flex-col items-center">
+              <h3 className="text-xl font-bold mb-4">Follow Us</h3>
+              <div className="flex space-x-6">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61564049348784"
+                  className="text-white text-3xl hover:text-blue-500"
+                  aria-label="Facebook"
+                >
                   <FaFacebook />
                 </a>
-                <a href="https://www.linkedin.com/company/bolivia-car-sharing/" className="text-white text-2xl hover:text-blue-700">
+                <a
+                  href="https://www.linkedin.com/company/bolivia-car-sharing/"
+                  className="text-white text-3xl hover:text-blue-700"
+                  aria-label="LinkedIn"
+                >
                   <FaLinkedin />
                 </a>
               </div>
             </div>
 
-            {/* Información Legal */}
-            <div className="md:w-1/3 text-center md:text-right">
-              <h3 className="text-lg font-semibold mb-2">Legal</h3>
-              <p className="text-sm">Términos y Condiciones</p>
-              <p className="text-sm">Política de Privacidad</p>
+            {/* Legal Information */}
+            <div className="md:w-1/3">
+              <h3 className="text-xl font-bold mb-4">Legal</h3>
+              <p className="text-sm mb-2">
+                <a href="#terms" className="text-blue-400 hover:underline">Terms and Conditions</a>
+              </p>
+              <p className="text-sm">
+                <a href="#privacy" className="text-blue-400 hover:underline">Privacy Policy</a>
+              </p>
             </div>
           </div>
 
-          {/* Derechos Reservados */}
-          <div className="text-center text-sm text-gray-500 mt-6">
-            <span>{`${copyright} ${year} ${companyName}. Todos los derechos reservados.`}</span>
+          {/* Copyright */}
+          <div className="text-center text-sm text-gray-500 mt-8">
+            <span>{`${copyright} ${year} ${companyName}. All rights reserved.`}</span>
           </div>
         </div>
       </footer>

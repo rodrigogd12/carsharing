@@ -67,7 +67,7 @@ export const NavBar = () => {
         <div className='hidden md:block'>
           <ul className='flex sm:space-x-8 space-x-4'>
             <li>
-              <a href="https://www.facebook.com" target='_blank' rel='noopener noreferrer' className='inline-block transition-transform duration-300 transform hover:scale-125'>
+              <a href="https://www.facebook.com/profile.php?id=61564049348784" target='_blank' rel='noopener noreferrer' className='inline-block transition-transform duration-300 transform hover:scale-125'>
                 <img src={facebookIcon} alt="facebook" className='w-[30px] h-[30px]' />
               </a>
             </li>
@@ -96,7 +96,7 @@ export const NavBar = () => {
 
         <ul className='flex space-x-4 px-4 py-2 border-t border-slate-900 justify-center'>
           <li>
-            <a href="https://www.facebook.com" target='_blank' rel='noopener noreferrer' className='inline-block transition-transform duration-300 transform hover:scale-125'>
+            <a href="https://www.facebook.com/profile.php?id=61564049348784" target='_blank' rel='noopener noreferrer' className='inline-block transition-transform duration-300 transform hover:scale-125'>
               <img src={facebookIcon} alt="facebook" className='w-[30px] h-[30px]' />
             </a>
           </li>
